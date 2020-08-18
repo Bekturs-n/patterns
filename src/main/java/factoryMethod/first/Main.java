@@ -36,7 +36,7 @@ public class Main {
 
 //******************************************************************************************************
 
-        NotebookFactory usersNotebook = null;
+        NotebookFactory usersNotebook;
 
         while (true) {
             System.out.println("Please choose what your want 'Mac' or 'MSI'?");
