@@ -1,5 +1,6 @@
 package abstractFactory.firstExample;
 
+import abstractFactory.firstExample.factory.BMWFactory;
 import abstractFactory.firstExample.factory.CarFactory;
 import abstractFactory.firstExample.factory.MercFactory;
 
@@ -19,6 +20,7 @@ import abstractFactory.firstExample.factory.MercFactory;
 public class Main {
     public static void main(String[] args) {
         CarFactory factory = new MercFactory();
+//        CarFactory factory = new BMWFactory();
         System.out.println(factory.createCoupe());
     }
 }
