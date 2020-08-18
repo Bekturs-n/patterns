@@ -1,7 +1,7 @@
-package factoryMethod.first.shop.product;
+package factoryMethod.first.product;
 
-import factoryMethod.first.shop.component.Color;
-import factoryMethod.first.shop.component.Model;
+import factoryMethod.first.component.Color;
+import factoryMethod.first.component.Model;
 
 public class MSINotebook extends Notebook{
 

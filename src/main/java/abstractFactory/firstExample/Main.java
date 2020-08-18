@@ -1,7 +1,7 @@
 package abstractFactory.firstExample;
 
-import abstractFactory.firstExample.pack.factory.CarFactory;
-import abstractFactory.firstExample.pack.factory.MercFactory;
+import abstractFactory.firstExample.factory.CarFactory;
+import abstractFactory.firstExample.factory.MercFactory;
 
 /***
  *      Абстрактная фабрика — это порождающий паттерн проектирования,

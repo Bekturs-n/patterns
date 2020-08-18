@@ -1,4 +1,4 @@
-package adapter;
+package adapter.first;
 
 public class Adapter extends SomeClass implements SomeInterface {
 

@@ -1,4 +1,4 @@
-package abstractFactory.firstExample.pack.type;
+package abstractFactory.firstExample.type;
 
 public class BMWCoupe implements Coupe{
     public BMWCoupe() {

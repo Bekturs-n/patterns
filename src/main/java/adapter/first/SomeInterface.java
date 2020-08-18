@@ -1,4 +1,4 @@
-package adapter;
+package adapter.first;
 
 public interface SomeInterface {
     void create();

@@ -1,4 +1,4 @@
-package adapter;
+package adapter.first;
 
 public class SomeClass {
     public void createObject(){

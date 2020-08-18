@@ -1,9 +1,9 @@
 package factoryMethod.first;
 
-import factoryMethod.first.shop.factory.MSIFactory;
-import factoryMethod.first.shop.factory.MacFactory;
-import factoryMethod.first.shop.factory.NotebookFactory;
-import factoryMethod.first.shop.product.Notebook;
+import factoryMethod.first.factory.MSIFactory;
+import factoryMethod.first.factory.MacFactory;
+import factoryMethod.first.factory.NotebookFactory;
+import factoryMethod.first.product.Notebook;
 
 /***
  * Фабричный метод — это порождающий паттерн проектирования, который определяет

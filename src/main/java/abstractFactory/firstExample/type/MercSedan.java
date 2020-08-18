@@ -1,4 +1,4 @@
-package abstractFactory.firstExample.pack.type;
+package abstractFactory.firstExample.type;
 
 public class MercSedan implements Sedan{
     public MercSedan() {
