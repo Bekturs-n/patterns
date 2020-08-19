@@ -1,6 +1,9 @@
 package singleton.second.multi;
 
-/**Пример создания Singleton и получения connection для многопоточной программы**/
+/**
+ * Пример создания Singleton и получения connection для многопоточной программы
+ **/
+
 public class DataBaseConnection {
 
     private static volatile DataBaseConnection connection;
@@ -16,5 +19,4 @@ public class DataBaseConnection {
             return connection;
         }
     }
-
 }

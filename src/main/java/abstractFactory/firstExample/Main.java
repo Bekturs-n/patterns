@@ -3,6 +3,16 @@ package abstractFactory.firstExample;
 import abstractFactory.firstExample.factory.BMWFactory;
 import abstractFactory.firstExample.factory.CarFactory;
 import abstractFactory.firstExample.factory.MercFactory;
+import org.w3c.dom.DOMImplementation;
+import org.w3c.dom.Document;
+import org.xml.sax.EntityResolver;
+import org.xml.sax.ErrorHandler;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.IOException;
 
 /***
  *      Абстрактная фабрика — это порождающий паттерн проектирования,

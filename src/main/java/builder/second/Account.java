@@ -8,14 +8,6 @@ public class Account {
     private Account() {
     }
 
-    public String getUserId() {
-        return userId;
-    }
-
-    public String getToken() {
-        return token;
-    }
-
     public static Builder newBuilder() {
         return new Account().new Builder();
     }
@@ -45,7 +37,5 @@ public class Account {
         public Account build() {
             return Account.this;
         }
-
     }
-
 }

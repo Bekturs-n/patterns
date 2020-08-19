@@ -49,7 +49,9 @@ public class Main {
                 usersNotebook = new MSIFactory();
                 break;
             }
+            System.out.println("You write wrong name...");
         }
+
         Notebook notebook = usersNotebook.creator();
         System.out.println("Your notebook:\n" + notebook.toString());
     }

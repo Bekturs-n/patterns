@@ -7,7 +7,7 @@ public class Main {
         s.setId((long) (Math.random() * 100));
         System.out.println(s.getClass().getName() + " " + s.getId());
         Singleton s1 = Singleton.getInstance1();
-        s1.setId((long) (Math.random() * 100));
+//        s1.setId((long) (Math.random() * 100));
         System.out.println(s1.getClass().getName() + " " + s1.getId());
     }
 }
