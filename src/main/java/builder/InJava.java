@@ -10,7 +10,7 @@ package builder;
  */
 public class InJava {
     public static void main(String[] args) {
-        StringBuilder sB = new StringBuilder().append("1").append("2").append("3");
+        StringBuilder sB = new StringBuilder().append("This ").append("is ").append("builder!");
         System.out.println(sB);
     }
 }

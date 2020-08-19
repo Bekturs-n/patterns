@@ -1,6 +1,9 @@
 package singleton.second.simple;
 
-/**Пример создания Singleton и получения connection без учета многопоточки**/
+/**
+ * Пример создания Singleton и получения connection без учета многопоточки
+ **/
+
 public class DataBaseConnection {
 
     private static DataBaseConnection connection;
