@@ -16,9 +16,9 @@ public class Main {
 
         notifierReport.notifierManager("Everything is ok ", Priority.RUTINE);
         System.out.println("====================================");
-        notifierReport.notifierManager("Something went wrong",Priority.WARNING);
+        notifierReport.notifierManager("Something went wrong ",Priority.WARNING);
         System.out.println("====================================");
-        notifierReport.notifierManager("BiG ProBleM", Priority.ASAP);
+        notifierReport.notifierManager("BiG ProBleM ", Priority.ASAP);
 
     }
 }

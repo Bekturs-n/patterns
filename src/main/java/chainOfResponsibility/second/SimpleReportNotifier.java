@@ -7,6 +7,6 @@ public class SimpleReportNotifier extends Notifier{
 
     @Override
     public void write(String message) {
-        System.out.println("Notifier using simple report" + message);
+        System.out.println("Notifier using simple report " + message);
     }
 }
