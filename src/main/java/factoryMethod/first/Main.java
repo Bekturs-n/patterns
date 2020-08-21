@@ -10,8 +10,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /***
- * Фабричный метод — это порождающий паттерн проектирования, который определяет
- * общий интерфейс для создания объектов в суперклассе, позволяя подклассам изменять тип создаваемых объектов.
+ * Имя: Фабричный метод
+ *
+ * Группа: порождающий
+ *
+ * Назначение: Определяет общий интерфейс для создания объектов в суперклассе,
+ * позволяя подклассам изменять тип создаваемых объектов.
  *
  * Подробнее:
  * https://refactoring.guru/ru/design-patterns/factory-method
@@ -24,18 +28,6 @@ public class Main {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-
-//        NotebookFactory msiFactory = new MSIFactory();
-//        NotebookFactory macFactory = new MacFactory();
-//
-//        Notebook mac = macFactory.creator();
-//        Notebook msi = msiFactory.creator();
-//
-//        System.out.println(mac.toString());
-//        System.out.println(msi.toString());
-
-//******************************************************************************************************
-
         NotebookFactory usersNotebook;
 
         while (true) {

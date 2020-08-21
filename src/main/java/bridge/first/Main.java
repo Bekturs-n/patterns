@@ -20,7 +20,8 @@ import bridge.first.remote.BasicRemote;
  * https://refactoring.guru/ru/design-patterns/bridge
  * https://www.youtube.com/watch?v=1KOkb-B2qnM
  *
- * Книга: Приемы объектно-ориентированного проектирования. Паттерны проектирования страница 153
+ * Литература:
+ *  "Приемы объектно-ориентированного проектирования. Паттерны проектирования"- страница 153
  *
  * Java-example:
  * https://refactoring.guru/ru/design-patterns/bridge/java/example
